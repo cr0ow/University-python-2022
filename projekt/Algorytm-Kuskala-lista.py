@@ -1,6 +1,3 @@
-# Kruskal's algorithm for finding MST - minimum spanning tree on adjacency list.
-# O(E(log E))
-
 class Node:
     def __init__(self, value):
         self.value = value
@@ -36,7 +33,6 @@ def convert_to_edges(graph):
     for i in range(len(graph)):
         for j in range(len(graph[i])):
             if graph[i][j][0] > i:
-            # if (graph[i][j][0], i, graph[i][j][1]) not in edges:    --- chyba to samo
                 edges.append((i, graph[i][j][0], graph[i][j][1]))
     return edges
 
@@ -56,8 +52,6 @@ def kruskal(graph):
             MST.append(edges[i])
             union(V[u], V[v])
     return MST
-
-    # (wierzchołek łączony, waga krawędzi)
 
 
 graph = [[(1, 7), (2, 8), (3, 3), (4, 2)],
