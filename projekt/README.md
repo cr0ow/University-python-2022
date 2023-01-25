@@ -37,9 +37,9 @@ Plik `kruskal.py` zawiera:
 
 ##### Klasy: 
  - `Node` - reprezentuje ona wierzchołek w grafie, pomocny dla funkcji `union()`, zawiera pola:
-   - value - wartość wierzchołka
-   - rank - reprezentuje wysokość poddrzewa wierzchołka
-   - parent - wskazuje na rodzica wierzchołka
+   - `value` - wartość wierzchołka
+   - `rank` - reprezentuje wysokość poddrzewa wierzchołka
+   - `parent` - wskazuje na rodzica wierzchołka
 
 ##### Funkcje:
  - `find(x)` - znajduje najdalszego rodzica wierzchołka, przyjmuje obiekt klasy `Node`
@@ -61,7 +61,7 @@ Plik `convert.py` zawiera:
 Plik `graph.py` zawiera:
 
 ##### Funkcje:
- - `load_from_file(filename)` - wczytuje grafu z pliku o podanej nazwie
+ - `load_from_file(filename)` - wczytuje graf z pliku o podanej nazwie
  - `save_to_file(graph, filename)` - zapisuje graf o postaci listy krawędzi do pliku o podanej nazwie
 
 Plik `main.py` zawiera test wszystkich funkcjonalności z wyżej wymienionych plików.
