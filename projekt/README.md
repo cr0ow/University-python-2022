@@ -43,7 +43,7 @@ Plik `kruskal.py` zawiera:
 
 ##### Funkcje:
  - `find(x)` - znajduje najdalszego rodzica wierzchołka, przyjmuje obiekt klasy `Node`
- - `union(x, y)` - złącza poddrzewa wierzchołków x i y w jedno  wspólnym rodzicu, przyjmuje dwa obiekty klasy Node
+ - `union(x, y)` - złącza poddrzewa wierzchołków x i y w jedno  wspólnym rodzicu, przyjmuje dwa obiekty klasy `Node`
  - `kruskal(edges)` - właściwy algorytm, argumentem jest graf w postaci listy krawędzi:
    - `vertices` - lista wierzchołków w grafie
    - `MST` - graf wynikowy (przedstawiony za pomocą listy krawędzi)
